@@ -18,7 +18,7 @@ const tours = [
     price: "2195",
   },
 ];
-
+ 
 describe("Tour Controller", () => {
   beforeEach(async () => {
     await Tour.deleteMany({});

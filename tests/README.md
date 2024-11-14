@@ -15,7 +15,7 @@ Here's an example:
   }
 }
 ```
-
+ 
 This will ensure that npm uses the specified version of `glob`, avoiding the deprecated `inflight` package. 
 
 -->

@@ -17,7 +17,7 @@ const createUser = (req, res) => {
     res.status(400).json({ message: "Invalid user data" });
   }
 };
-
+ 
 // GET /users/:userId
 const getUserById = (req, res) => {
   const userId = req.params.userId;

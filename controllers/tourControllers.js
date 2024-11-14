@@ -17,7 +17,7 @@ const createTour = (req, res) => {
     res.status(400).json({ message: "Invalid tour data" });
   }
 };
-
+ 
 // GET /tours/:tourId
 const getTourById = (req, res) => {
   const tourId = req.params.tourId;

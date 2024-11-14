@@ -10,7 +10,7 @@ const {
 
 // Middleware to parse JSON
 app.use(express.json());
-
+ 
 // Use the tourRouter for all "/tours" routes
 app.use("/api/tours", tourRouter);
 
